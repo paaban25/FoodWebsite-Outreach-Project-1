@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Belanosima:wght@400;600&family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;300&display=swap');
+.container{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+    text-align: center;
+    
+    background-image: url(https://img.freepik.com/free-photo/copy-space-italian-food-ingredients_23-2148551732.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 100% 100%;
+    
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    color: rgb(230, 36, 75);
+    font-family: 'Alkatra', cursive;
+font-family: 'Caprasimo', cursive;
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Alkatra', cursive;
+font-family: 'Belanosima', sans-serif;
+font-family: 'Caprasimo', cursive;
+
+}
+h4{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.btn{
+    
+   margin: 0 10px 0 10px;
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+    :hover{
+        box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transform: scale(1.01);
+    }
+    
+
+}

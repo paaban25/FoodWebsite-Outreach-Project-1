@@ -1,0 +1,54 @@
+.container4{
+    
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+        /* flex-direction: column; */
+        text-align: center;
+        color: whitesmoke;
+        background-image: url(https://watermark.lovepik.com/photo/20211209/large/lovepik-vegetable-food-background-material-picture_501697070.jpg);
+        background-repeat: no-repeat;
+        height: 450px;
+        background-size: 100% 100%;
+        
+    
+}
+
+h1{
+    padding: 20px 0 20px 0;
+    color: rgb(1, 13, 24);
+
+}
+
+#download{
+    color: #d116ee;
+}
+#available{
+    color: rgb(56 98 224);;
+}
+
+.btn2{
+    
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    padding: 10px;
+    background: #1abebf;
+    background-image: linear-gradient(122deg,#37e0e0,#1abebe);
+    background-size: 300px,300px,100%;
+    color: #d1c6c6;
+    border-bottom: 5px solid #ffc600;
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 5%);
+    text-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    transition: all .3s;
+    :hover{
+        box-shadow: 0 0 3px 3px rgb(0 0 0 / 8%);
+    }
+    margin: 0 20px 0 20px;
+    
+}
